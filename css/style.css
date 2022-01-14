@@ -9,27 +9,107 @@
 }
 
 .box-immagini {
+    margin: 0 auto;
+    position: relative;
     margin-top: 40px;
     padding: 20px;
     border: 2px #ccc solid;
     border-radius: 10px;
     box-shadow: 0 0 6px #ccc;
+    width: 400px;
 }
 
 .box {
-    
+    margin: 0 auto;
     border: 2px #ccc solid;
     border-radius: 10px;
     box-shadow: 0 0 6px #ccc;
+    width: 330px;
 }
 
-.bottone {
-    z-index: 2;
+.bottone-right {
+    position: absolute;
     border: 1px #ccc solid;
     background-color: rgba(204, 204, 204, 0.459);
     width: 25px;
     height: 25px;
     border-radius: 50px;
     padding-left: 5px;
+    top: 150px;
+    right: 50px;
+
+}
+
+.bottone-left {
+    position: absolute;
+    border: 1px #ccc solid;
+    background-color: rgba(204, 204, 204, 0.459);
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    padding-left: 5px;
+    top: 150px;
+    left: 50px;
+}
+
+.cerchio {
+    position: absolute;
+    font-size: 10px;
+    left: 160px;
+    bottom: 30px;
+    color: #fff;
+
+}
+.cerchio2 {
+    position: absolute;
+    font-size: 10px;
+    left: 170px;
+    bottom: 30px;
+    color: #fff;
+
+}
+.cerchio3 {
+    position: absolute;
+    font-size: 10px;
+    left: 180px;
+    bottom: 30px;
+    color: #fff;
+
+}
+.cerchio4 {
+    position: absolute;
+    font-size: 10px;
+    left: 190px;
+    bottom: 30px;
+    color: #fff;
+
+}
+.cerchio5 {
+    position: absolute;
+    font-size: 10px;
+    left: 200px;
+    bottom: 30px;
+    color: #fff;
+
+}
+.cerchio:hover {
+    color: black;
+    cursor: pointer;
+}
+.cerchio2:hover {
+    color: black;
+    cursor: pointer;
+}
+.cerchio3:hover {
+    color: black;
+    cursor: pointer;
+}
+.cerchio4:hover {
+    color: black;
+    cursor: pointer;
+}
+.cerchio5:hover {
+    color: black;
+    cursor: pointer;
 }
 

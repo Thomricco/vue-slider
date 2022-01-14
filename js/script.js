@@ -1,6 +1,15 @@
 new Vue({
     el: "#app",
     data: {
+        colore: [
+            {
+                color: 'black'
+            },
+            {
+                color: 'white'
+            },
+
+        ],
         currentIndex: 0,
         immagini: [
             {
@@ -25,13 +34,17 @@ new Vue({
         ]
     },
     methods: {
-        nextFreddura: function () {
+        nextImg: function () {
             this.currentIndex++;
             // -> e se arrivo alla fine dell'array?
         },
-        prevFreddura: function () {
+        prevImg: function () {
             this.currentIndex--;
             // -> e se arrivo a 0?
-        }
+        },
+        //coloreCerchio: function() {
+          //  this.color;
+        //}
+
     }
 })
