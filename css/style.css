@@ -52,64 +52,21 @@
     left: 50px;
 }
 
-.cerchio {
-    position: absolute;
+.cerchio { 
     font-size: 10px;
+    
+    color: #fff;
+
+}
+
+.pallini {
+    position: absolute;
     left: 160px;
     bottom: 30px;
-    color: #fff;
-
 }
-.cerchio2 {
-    position: absolute;
-    font-size: 10px;
-    left: 170px;
-    bottom: 30px;
-    color: #fff;
-
-}
-.cerchio3 {
-    position: absolute;
-    font-size: 10px;
-    left: 180px;
-    bottom: 30px;
-    color: #fff;
-
-}
-.cerchio4 {
-    position: absolute;
-    font-size: 10px;
-    left: 190px;
-    bottom: 30px;
-    color: #fff;
-
-}
-.cerchio5 {
-    position: absolute;
-    font-size: 10px;
-    left: 200px;
-    bottom: 30px;
-    color: #fff;
-
-}
-.cerchio:hover {
+.active{
     color: black;
-    cursor: pointer;
 }
-.cerchio2:hover {
-    color: black;
-    cursor: pointer;
-}
-.cerchio3:hover {
-    color: black;
-    cursor: pointer;
-}
-.cerchio4:hover {
-    color: black;
-    cursor: pointer;
-}
-.cerchio5:hover {
-    color: black;
-    cursor: pointer;
-}
+
+
 

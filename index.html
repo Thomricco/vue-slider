@@ -29,26 +29,10 @@
                 <div class="bottone-right" @click="nextImg">
                     <i class="fas fa-arrow-right"></i>
                 </div>
-                <div class="cerchio">
-                    <!--<i @click="coloreCerchio" class="fas fa-circle"></i>-->
-                    <i class="fas fa-circle"></i>
+                <div class="pallini d-flex">
+                    <i v-for="(immagine, i) in immagini" :class="{active: currentIndex === i}" class="fas fa-circle cerchio"></i>
                 </div>
-                <div class="cerchio2">
-                    <!--<i @click="coloreCerchio" class="fas fa-circle"></i>-->
-                    <i class="fas fa-circle"></i>
-                </div>
-                <div class="cerchio3">
-                    <!--<i @click="coloreCerchio" class="fas fa-circle"></i>-->
-                    <i class="fas fa-circle"></i>
-                </div>
-                <div class="cerchio4">
-                    <!--<i @click="coloreCerchio" class="fas fa-circle"></i>-->
-                    <i class="fas fa-circle"></i>
-                </div>
-                <div class="cerchio5">
-                    <!--<i @click="coloreCerchio" class="fas fa-circle"></i>-->
-                    <i class="fas fa-circle"></i>
-                </div>
+                
             </div>
 
 

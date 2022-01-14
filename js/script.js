@@ -35,11 +35,26 @@ new Vue({
     },
     methods: {
         nextImg: function () {
-            this.currentIndex++;
+            // aggiungi uno se sei alla fine ritorna all'inizio
+            if(this.currentIndex < this.immagini.length - 1){
+                this.currentIndex++;
+            }else{
+                this.currentIndex = 0;
+            }
+
+            
+            
             // -> e se arrivo alla fine dell'array?
         },
         prevImg: function () {
-            this.currentIndex--;
+            
+            if(this.currentIndex > 0){
+                this.currentIndex--;
+            }else{
+                this.currentIndex = this.immagini.length - 1;
+            }
+
+    
             // -> e se arrivo a 0?
         },
         //coloreCerchio: function() {
